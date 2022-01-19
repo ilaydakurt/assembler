@@ -14,7 +14,6 @@ function add(value1,value2)
     newValue = ''
     for(let i = value1.length - 1;i >= 0;i--)
     {
-
         newValue = ((Number(value1[i]) + Number(value2[i]) + c) % 2).toString() + newValue
         c = ((Number(value1[i]) + Number(value2[i]) + c) - (Number(value1[i]) + Number(value2[i]) + c) % 2) / 2
     }

@@ -10,14 +10,17 @@ Convert Function
 function convert(inputOpcode,inputAddressingMode,inputOperand)
 {
     let addressingMode = parseInt(inputAddressingMode,16);
+    let baddressingMode = addressingMode.toString(2)
+    baddressingMode = baddressingMode.padStart(2,"0")
+
     let operand = parseInt(inputOperand,16);
+    let boperand = operand.toString(2)
+    boperand = boperand.padStart(16,"0")
+
     let opcode = inputOpcode;
     let bopcode = opcode.toString(2)
     bopcode = bopcode.padStart(6,"0")
-    let baddressingMode = addressingMode.toString(2)
-    baddressingMode = baddressingMode.padStart(2,"0")
-    let boperand = operand.toString(2)
-    boperand = boperand.padStart(16,"0")
+
     let bin = '0b' + bopcode + baddressingMode + boperand;
     let instr = parseInt(bin.substring(2,),2).toString(16).padStart(6,"0");
     return instr
