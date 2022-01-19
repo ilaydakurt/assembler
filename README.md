@@ -3,6 +3,10 @@ Assembler Simulation - JavaScript
 
 This is an assembler simulation code. There are two files and commands.
 
+# To set up:
+"npm install"
+
+
 # First Part:
 There should be a file with the extension “.asm” in the code directory. The command to run is: 
 

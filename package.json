@@ -1,0 +1,26 @@
+{
+  "name": "assembler",
+  "version": "1.0.0",
+  "description": "Assembler Simulation - JavaScript",
+  "main": "cpu514assemble.js",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilaydakurt/assembler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilaydakurt/assembler/issues"
+  },
+  "homepage": "https://github.com/ilaydakurt/assembler#readme"
+}
